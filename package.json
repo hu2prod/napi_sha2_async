@@ -11,8 +11,8 @@
     "url": "git+https://github.com/hu2prod/napi_sha2_async.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "vird",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hu2prod/napi_sha2_async/issues"
   },
