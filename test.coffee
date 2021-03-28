@@ -2,6 +2,7 @@
 # probably optimal is UV_THREADPOOL_SIZE=8
 crypto = require("crypto")
 mod = require("./index")
+console.log "UV_THREADPOOL_SIZE=#{process.env.UV_THREADPOOL_SIZE}"
 
 sha2_base = (buf, cb)->
   cb null, crypto.createHash("sha256").update(buf).digest()
